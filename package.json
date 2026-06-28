@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-store",
+  "version": "1.0.0",
+  "description": "Modern e-commerce clothing store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node db/seed.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "sql.js": "^1.11.0"
+  }
+}
